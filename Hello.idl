@@ -2,7 +2,7 @@ module HelloApp
 {
   interface Hello
   {
-    string sayHello();        // This line is an operation statement.
+    string sayHello(in string a);        // This line is an operation statement.
     oneway void shutdown();   // This line is another
   };
 };

@@ -41,7 +41,7 @@ _0_HelloApp._tc_Hello = omniORB.tcInternal.createTypeCode(_0_HelloApp._d_Hello)
 omniORB.registerType(Hello._NP_RepositoryId, _0_HelloApp._d_Hello, _0_HelloApp._tc_Hello)
 
 # Hello operations and attributes
-Hello._d_sayHello = ((), ((omniORB.tcInternal.tv_string,0), ), None)
+Hello._d_sayHello = (((omniORB.tcInternal.tv_string,0), ), ((omniORB.tcInternal.tv_string,0), ), None)
 Hello._d_shutdown = ((), None, None)
 
 # Hello object reference

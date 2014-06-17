@@ -16,8 +16,8 @@ class HelloImpl extends HelloPOA {
   }
 
   // implement sayHello() method
-  public String sayHello() {
-    return "\nHello world !!\n";
+  public String sayHello(String coba) {
+    return coba;
   }
 
   // implement shutdown() method
